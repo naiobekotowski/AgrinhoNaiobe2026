@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#ffffff;
+    color:#1b5e20;
+}
+
+/* Cabeçalho */
+header{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:40px;
+}
+
+header h1{
+    font-size:3rem;
+}
+
+header p{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+/* Banner */
+.banner{
+    background:#c8f7c5;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.desenho{
+    font-size:5rem;
+    margin-bottom:20px;
+}
+
+/* Cards */
+.cards{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:50px 20px;
+}
+
+.card{
+    background:#e8f5e9;
+    width:300px;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+.icone{
+    font-size:4rem;
+    margin-bottom:15px;
+}
+
+/* Mensagem */
+.mensagem{
+    background:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.mensagem h2{
+    margin-bottom:20px;
+    color:#1b5e20;
+}
+
+/* Rodapé */
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
